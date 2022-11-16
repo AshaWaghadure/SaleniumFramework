@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2"
+          name="C:/Users/AshaWaghadure/IdeaProjects/SaleniumFramework/src/test/java/listener">
+        <classes>
+            <class name="listener.TestNGListenerDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+            <class name="listener.TestNGListenerDemo2">
+                <methods>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="test6"/>
+                </methods>
+            </class>
+        </classes>
+    </test></suite>
